@@ -2,3 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.button {
+    position: absolute;
+    top: 7px;
+    right: 80px;
+    height: 28px;
+    width: 120px;
+    padding: 8px;
+    background: #FD7454;
+    border: 1px solid #ED5835;
+    border-radius: 6px;
+    color: #FFFFFF;
+    text-align: center;
+    font: 1em/8px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+a.button:hover {
+    background: #ff6633;
+}
