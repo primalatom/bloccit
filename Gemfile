@@ -27,7 +27,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-#RIX: From Checkpoint 25 - "Rails Console"
+#RIX: From Checkpoint 25 - "Rails Consolecd"
 gem 'pry-rails', :group => :development
 
 #RIX: From Checkpoint 26 - "Seed Data"
