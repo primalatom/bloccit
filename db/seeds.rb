@@ -20,3 +20,17 @@ require 'faker'
  puts "Seed finished"
  puts "#{Post.count} posts created"
  puts "#{Comment.count} comments created"
+
+#RIX Added unique post with comment as per the Seed Data assignment
+if !Post.exists?(title: "RIX Post")
+
+  post = Post.create!(
+    title: "RIX Post",
+    body: "I created this post for the Seed Assignment"
+  )
+
+  Comment.create!(
+    post: post,
+    body: "I really like your post"
+  )
+end
