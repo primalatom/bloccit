@@ -1,8 +1,4 @@
 source 'https://rubygems.org'
-
-#RIX: From warning when deploying to Heroku. Suggested adding this line to Gem file.
-
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
 # Use sqlite3 as the database for Active Record
@@ -14,6 +10,7 @@ gem 'rails', '4.1.7'
  group :development do
    gem 'sqlite3'
  end
+
 # RIX: From CSS Checkpoint 24 - Models
  group :development do
   gem "rails-erd"
@@ -27,20 +24,25 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+#RIX: From Checkpoint 25 - "Rails Console"
+gem 'pry-rails', :group => :development
+
+#RIX: From Checkpoint 26 - "Seed Data"
+gem 'faker'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
-
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-# RIX: From CSS Checkpoint 23 - CSS
+# RIX: From Checkpoint 23 - "CSS"
 gem 'bootstrap-sass'
 
 # Use ActiveModel has_secure_password
