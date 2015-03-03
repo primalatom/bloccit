@@ -1,6 +1,6 @@
-# Changed this file as per insturx Checkpoint 27 - CRUD
+# RIX Changed per insturx AND assignment Checkpoint 27  - CRUD
 Rails.application.routes.draw do
-  resources :posts
+  resources :posts, :advertisements
   get 'about' => 'welcome#about'
   get 'contact' => 'welcome#contact'
 
