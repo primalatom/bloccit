@@ -45,6 +45,10 @@ gem 'spring',        group: :development
 # RIX: From Checkpoint 23 - "CSS"
 gem 'bootstrap-sass'
 
+#RIX From Checkpoint 30 - User Authentication
+ gem 'devise'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
