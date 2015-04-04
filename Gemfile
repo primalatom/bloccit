@@ -48,6 +48,8 @@ gem 'bootstrap-sass'
 #RIX From Checkpoint 30 - User Authentication
  gem 'devise'
 
+#RIX From Checkpoint 31 - Authentication Continued
+gem 'figaro', '1.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
